@@ -19,4 +19,4 @@ ions can be filtered by de-ionizing filter.
 **Cost:** The system is inexpensive and is within reach of the common man. Targeting Slums area for example: Machar Colony, Total Populations
 is 700,000. Estimating usage of water person to be 35 gallons, total requirement for water comes out to be: 25.5M Gallons.
 Initial cost: 35 crore
-Running Crore: 5 crore
+Running Cost: 5 crore
