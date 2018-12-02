@@ -1,0 +1,14 @@
+#preloadera {
+    
+    /* display: flex;
+    justify-content: center;
+    align-content: center; */
+
+}
+
+#loading {
+    position: absolute;
+    top: 250px;
+    left: 650px;
+    z-index: 10000;
+  }

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> PAK PURE SIGN UP OR LOGIN </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="theme-assets/css/loader.css">
+
+    
+</head>
+
+<body>
+    <div id="preloadera" style="display: none;">
+     <!--    <h1> WAIT LOADING .... </h1> --> 
+     <img src="theme-assets/images/loader.gif" id="loading" />
+    </div>
+
+    
+    <div class="jumbotron" id="sign-up">
+        <h1 class="display-4">Sign-Up | PAK PURE  </h1>
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Enter Your UserName</label>
+                <input type="email" id="email_field" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your username">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Password, minmum of 6 characters">
+            </div>
+            <button type="submit" id="signup-btn" class="btn btn-primary">Submit</button>
+        </form>
+        
+        <button type="button" class="btn btn-outline-secondary float-right sign-in-button">Or Proceed to Sign-In</button>
+    </div>
+    
+    
+    
+    
+    <div class="jumbotron" id="sign-in">
+        <h1 class="display-4"> Sign-In | PAK PURE </h1>
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter your email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password : </label>
+                <input type="password" class="form-control" id="exampleInputPassword" placeholder="Enter your Password">
+            </div>
+            <button type="submit" id="login-btn" class="btn btn-primary">Submit</button>
+        </form>
+
+        <button type="button" class="btn btn-outline-secondary float-right sign-up-button">Or Sign Up now</button>
+    
+    </div>
+    
+    
+    
+    
+
+
+    <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAwbFC-AZoBSzcYm14lFhFryZ4Qx89dHS8",
+    authDomain: "removinghtml.firebaseapp.com",
+    databaseURL: "https://removinghtml.firebaseio.com",
+    projectId: "removinghtml",
+    storageBucket: "removinghtml.appspot.com",
+    messagingSenderId: "327405737681"
+  };
+  firebase.initializeApp(config);
+</script>
+    
+</body>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+crossorigin="anonymous"></script>
+
+<script src="src/js/main.js"></script>
+</html>
